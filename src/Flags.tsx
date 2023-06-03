@@ -91,7 +91,7 @@ const LanguageButton = styled.button<ButtonProps>`
 const Flags: React.FC<ButtonProps> = ({ size = 'md', color = '#555555', backgroundColor = '#ebebeb' }) => {
     const [isOpen, setIsOpen] = useState(false);
 
-    const { changeLanguage, flags, handleFlags, language } = useLanguage();
+    const { changeLanguage, flags, getFlags, language } = useLanguage();
 
     const handleClick = (code: string) => {
         changeLanguage(code);
@@ -108,7 +108,7 @@ const Flags: React.FC<ButtonProps> = ({ size = 'md', color = '#555555', backgrou
     }
 
     useEffect(() => {
-        handleFlags();
+        getFlags();
     }, []);
 
     return (

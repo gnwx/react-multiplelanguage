@@ -13,7 +13,7 @@ export interface LanguageContextValues {
     texts: Record<string, any>;
     flags: { code: string; emoji: string }[];
     changeLanguage: (lang: string) => void;
-    handleFlags: () => void;
+    getFlags: () => void;
 }
 
 export const LContext = createContext<LanguageContextValues | null>(null);
@@ -38,7 +38,7 @@ const LanguageContext = (props: LanguageContextProps) => {
     const [language, setLanguage] = useState<string>(getLanguage);
     const [flags, setFlags] = useState<{ code: string; emoji: string }[]>([]);
 
-    const handleFlags = () => {
+    const getFlags = () => {
         const codes = Object.keys(texts);
 
         const filtered = codeAndEmojiArray.filter((code) => codes.includes(code.code));
@@ -63,7 +63,7 @@ const LanguageContext = (props: LanguageContextProps) => {
         texts: texts[language],
         flags,
         changeLanguage,
-        handleFlags
+        getFlags
     };
 
     return <LContext.Provider value={values}>{children}</LContext.Provider>;
