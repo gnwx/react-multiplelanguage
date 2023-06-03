@@ -169,3 +169,11 @@ import { Flags } from 'react-multiplelanguage';
 <br>
 
 Your website is now complete! There is just one more step remaining: please click on the Flags component and select the desired language!
+
+
+![Recording 2023-06-04 at 01 57 26](https://github.com/gnwx/react-multiplelanguage/assets/77449139/9cf2323f-b943-4915-b5df-6e81783a9096)
+
+
+
+
+
