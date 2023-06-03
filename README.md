@@ -1,8 +1,10 @@
-## react-multiplelanguage
+# react-multiplelanguage
 
 <br>
 
 [`react-multiplelanguage`](https://www.npmjs.com/package/react-multiplelanguage) allows you to easily implement localization in React.
+
+![Recording 2023-06-04 at 01 57 26](https://github.com/gnwx/react-multiplelanguage/assets/77449139/d863dcac-697e-491c-9c5e-521c44dcace1)
 
 Localize your application right away [getting started](./GETTING_STARTED.md)
 
@@ -88,6 +90,10 @@ const myTexts= {
 ## Flags
 
 The `Flags` component is a customizable language selector component that allows users to switch between avaiable languages.
+
+![Screenshot from 2023-06-04 01-49-31](https://github.com/gnwx/react-multiplelanguage/assets/77449139/d38ba67a-ec38-4a6a-8fe3-2fcd664e2688)
+![Screenshot from 2023-06-04 01-49-41](https://github.com/gnwx/react-multiplelanguage/assets/77449139/6a99cbe4-70b3-4f08-b46c-1e484893ab44)
+
 
 ```javascript
 <Flags />
