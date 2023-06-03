@@ -3,7 +3,7 @@ Let's imagine you have a company called Brand, and you have created your website
 
 <br>
 
-First, let's download the code of your website.
+First, let's [download](https://github.com/gnwx/react-multiplelanguage-starter) the code of your website.
 
 ```
 git clone https://github.com/gnwx/react-multiplelanguage-starter.git
